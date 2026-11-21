@@ -1,0 +1,8 @@
+html,body{margin:0;height:100%;background:#000;overflow:hidden}
+body{display:flex;align-items:center;justify-content:center;cursor:none}
+canvas{display:block;background:#08090D}
+#mute{position:fixed;right:18px;bottom:16px;background:rgba(8,9,13,.6);color:#C4C4CC;border:1px solid rgba(200,16,46,.6);
+font:600 12px/1 "Segoe UI",Arial,sans-serif;letter-spacing:.2em;padding:10px 14px;cursor:pointer;opacity:.0;transition:opacity .6s}
+body:hover #mute,#mute.show{opacity:.85}
+body:hover{cursor:default}
+body.noui #mute{display:none}
